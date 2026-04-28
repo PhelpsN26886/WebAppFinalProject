@@ -1,0 +1,3 @@
+<link rel="icon" type="image/png" href="worldcuisinefavicon.png">
+
+I don't feel like adding every file with this change to GitHub. Just add this one line to every file that has HTML script after the line that has the <title>. I emailed you the photo file to add as well. This changes to tab icon.
