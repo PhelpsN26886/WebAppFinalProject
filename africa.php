@@ -56,7 +56,17 @@ function star_html(float $rating): string {
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     <style>
-        body { background: var(--cream-background); align-items: stretch; min-height: 100vh; }
+        html, body {
+        min-height: 100%;
+        margin: 0;
+        }
+
+        body {
+        background: var(--cream-background);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        }
 
         .top-nav {
             position: sticky; top: 0; background: var(--navy-text); z-index: 100;
@@ -86,6 +96,8 @@ function star_html(float $rating): string {
         }
 
         .page-hero {
+            width: 100%;
+            box-sizing: border-box;
             background: linear-gradient(135deg, var(--navy-text), #2d3a5a);
             color: var(--cream-accent);
             padding: 52px 32px 44px;
@@ -111,6 +123,7 @@ function star_html(float $rating): string {
             max-width:1300px;
             margin:0 auto;
             padding:36px 24px 64px;
+            flex: 1;
         }
 
         .back-link {
