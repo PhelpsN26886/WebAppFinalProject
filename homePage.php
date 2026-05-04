@@ -7,6 +7,7 @@ require_once 'config.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Cuisine's Recipe Search</title>
+    <link rel="icon" type="image/png" href="worldcuisinefavicon.png">
     <link rel="stylesheet" href="finalProjectStyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -69,13 +70,13 @@ require_once 'config.php';
         </div>
     </form>
     <nav class="search-nav">
-        <a href="map.html" class="search-nav-link">World Map Search</a>
+        <a href="worldmapsearch.php" class="search-nav-link">Continent Search</a>
         <a href="all.php"  class="search-nav-link">View All</a>
     </nav>
 </section>
 
 <footer id="contact">
-    <p>Contact Us: phelpsn@jbu.edu<br>(479) 866-2211</p>
+    <p>Contact Us: phelpsn@jbu.edu // westc@jbu.edu<br>(479) 866-2211 // (913)-201-8993</p>
 </footer>
 
 </body>

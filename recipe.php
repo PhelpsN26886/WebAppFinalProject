@@ -61,6 +61,7 @@ $instructions = array_filter(array_map('trim', explode("\n", $recipe['instructio
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= h($recipe['title']) ?> – World Cuisine</title>
+    <link rel="icon" type="image/png" href="worldcuisinefavicon.png">
     <link rel="stylesheet" href="finalProjectStyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -321,7 +322,7 @@ $instructions = array_filter(array_map('trim', explode("\n", $recipe['instructio
 </div>
 
 <footer id="contact">
-    <p>Contact Us: phelpsn@jbu.edu<br>(479) 866-2211</p>
+    <p>Contact Us: phelpsn@jbu.edu // westc@jbu.edu<br>(479) 866-2211 // (913)-201-8993</p>
 </footer>
 
 <script>
